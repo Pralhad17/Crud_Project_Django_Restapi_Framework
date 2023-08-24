@@ -1,0 +1,17 @@
+{% extends 'crud/base.html' %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+<body>
+    <div class="text-center">
+        <h3>Record Management</h3>
+        <br>
+        <h5>Keep track of your records efficetively</h5>
+        <hr>
+        <br>
+
+        <a class="btn btn-primary" href="{% url 'register' %}">Create Your Account </a>
+    </div>
+</body>
+{% endblock %}
